@@ -21,10 +21,6 @@ public class CardLayoutManager extends RecyclerView.LayoutManager {
 
     private Pool<Rect> mItemFrames;
 
-    public CardLayoutManager(boolean center) {
-        this(DEFAULT_GROUP_SIZE, true);
-    }
-
     public CardLayoutManager(int groupSize, boolean center) {
         mGroupSize = groupSize;
         isGravityCenter = center;
